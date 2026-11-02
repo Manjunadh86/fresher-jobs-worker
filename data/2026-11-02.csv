@@ -1,26 +1,26 @@
 tier,company,title,location,posted,kind,salary,batch,url,source
-mnc,Birlasoft,AS400 Developer,Pune,2026-11-02,fresher,₹6–9 LPA (as listed),"2025, 2026",https://jobs.birlasoft.com/talentcommunity/apply/61197744/?locale=en_US,talentd
-mnc,BlackRock,"Associate, AI Data Scientist- Private Markets","Bengaluru, India",2026-11-02,fresher,,,https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/Bengaluru-India/Associate--AI-Data-Scientist--Private-Markets_R264031,workday
-mnc,EXL,Python Developer,Gurugram,2026-11-02,fresher,₹10–18 LPA (as listed),"2025, 2026",https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/21422,talentd
-mnc,Genpact,Developer - Application Development,Bengaluru,2026-11-02,fresher,₹7–11 LPA (as listed),"2025, 2026",https://genpact.wd108.myworkdayjobs.com/External_Careers/job/1401-G-India--GF11-Pritech-Park-Bangalore/Developer---Application-Development-N-4A_JR10032506,talentd
-mnc,GitLab,Intermediate Data Engineer,"Bangalore, India",2026-11-02,fresher,,,https://job-boards.greenhouse.io/gitlab/jobs/8924923002,greenhouse
-mnc,HCLTech,Engineer (Tools & Automation),Lucknow,2026-11-02,fresher,₹6–12 LPA (as listed),"2025, 2026",https://careers.hcltech.com/job/Engineer-%28Tools-&-Automation%29/188682-en_US/,talentd
-mnc,HCLTech,DataStage Engineer,Bengaluru,2026-11-02,fresher,₹8–12 LPA (as listed),"2025, 2026",https://careers.hcltech.com/job/DataStage-Engineer-IBM-Infosphere-DataStage-Suite%2C-SQL/188770-en_US/,talentd
-mnc,Honeywell,Software Engineer I Jobs at Honeywell,Pune,2026-11-02,fresher,₹6–9 LPA (as listed),"2025, 2026",https://careers.honeywell.com/en/sites/CX_1/job/160453,talentd
-mnc,IQVIA,Assoc Clin Data Coord,Bengaluru,2026-11-02,fresher,₹4–6 LPA (as listed),"2025, 2026",https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Bangalore-India/Assoc-Clin-Data-Coord_R1558439,talentd
-mnc,NTT Data,Data Migration Engineer,Bengaluru,2026-11-02,fresher,₹12–18 LPA (as listed),"2025, 2026",https://careers-inc.nttdata.com/job/Bangalore-Data-Migration-Engineer-Nov-Expanded-Team-KA/1446654500/,talentd
-startup,Miamin Systems,Associate Software Engineer,"Chennai, Tamil Nadu, India",2026-11-02,fresher,,,https://www.linkedin.com/jobs/view/4484304648/,linkedin
-startup,Miamin Systems,Associate Software Engineer,"Bengaluru, Karnataka, India",2026-11-02,fresher,,,https://www.linkedin.com/jobs/view/4484300767/,linkedin
-startup,Kamineni Hospitals,Associate Software Engineer (Full Stack & Applied AI),"Hyderabad, Telangana, India",2026-10-29,fresher,,,https://www.linkedin.com/jobs/view/4465206509/,linkedin
-startup,Mygate,Associate QA Engineer,"Kochi, Kerala, India",2026-10-28,fresher,,,https://www.linkedin.com/jobs/view/4483877494/,linkedin
-startup,Route Mobile Limited,DevOps Engineer,"Hyderabad, Telangana, India",2026-10-27,fresher,,,https://www.linkedin.com/jobs/view/4484012376/,linkedin
-startup,Autocash.ai,AI Engineer,"Bengaluru, Karnataka, India",2026-11-02,fresher,,,https://www.linkedin.com/jobs/view/4485465740/,linkedin
-startup,Altum Labs LLP,AI Automation Test Engineer,Ahmedabad,2026-11-02,fresher,,,https://unstop.com/jobs/ai-automation-test-engineer-altum-labs-llp-1780349,unstop
-startup,CME Group,Site Reliability Engineer I,Bangalore,2026-11-02,fresher,,,https://unstop.com/jobs/site-reliability-engineer-i-cme-group-1774253,unstop
-startup,Emerson,Applications and Systems Engineer 1,Pune,2026-11-02,fresher,,,https://unstop.com/jobs/applications-and-systems-engineer-1-emerson-1774255,unstop
-startup,Humanity Founders,AI Full Stack Mobile Engineer,Work from home,2026-11-02,fresher,₹2.5–3.5 LPA (as listed),,https://internshala.com/job/detail/fresher-remote-ai-full-stack-mobile-engineer-job-at-humanity-founders1793595737,internshala
-startup,NRI PelliGola,Reach Native Mobile App Developer,Hyderabad,2026-11-02,fresher,₹4.2–5.4 LPA (as listed),,https://internshala.com/job/detail/fresher-reach-native-mobile-app-developer-job-in-hyderabad-at-nri-pelligola1793591177,internshala
-startup,Omadus Infotech,Big Data Trainee,Work from home,2026-11-02,fresher,₹6–8 LPA (as listed),,https://internshala.com/job/detail/fresher-remote-part-time-big-data-trainee-job-at-omadus-infotech1793612560,internshala
-startup,Rubrik,Software Engineer - Cloud,Bangalore,2026-11-02,fresher,,,https://unstop.com/jobs/software-engineer-cloud-rubrik-1782552,unstop
-startup,Emerson,Applications and Systems Engineer 1 - Pune,Pune,2026-10-29,fresher,,,https://unstop.com/jobs/applications-and-systems-engineer-1-pune-emerson-1783246,unstop
-startup,SaffireTech,Front End Developer,Mumbai,2026-10-29,fresher,₹3.5–5 LPA (as listed),,https://internshala.com/job/detail/front-end-developer-job-in-mumbai-at-saffiretech1793188926,internshala
+mnc,EXL,Data Scientist,"Gurugram, Haryana, India",2026-11-02,fresher,,,https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/22200,oraclecloud
+mnc,IBM,Software Developer,Ahmedabad / Lucknow / Pune / Bengaluru / Kochi,2026-11-02,fresher,₹5–9 LPA (as listed),"2025, 2026",https://careers.ibm.com/careers/JobDetail?jobId=137964,talentd
+mnc,NTT Data,Data Migration Engineer - Nov Expanded Team,"Bangalore, KA, IN",2026-11-02,fresher,,,https://careers-inc.nttdata.com/job/Bangalore-Data-Migration-Engineer-Nov-Expanded-Team-KA/1446654800/,successfactors
+mnc,NTT Data,Data Engineer Advisor,"Bangalore, KA, IN",2026-11-02,fresher,,,https://careers-inc.nttdata.com/job/Bangalore-Data-Engineer-Advisor-KA/1446674300/,successfactors
+mnc,Quest Global,AIML Engineer,Noida,2026-11-02,fresher,₹6–9 LPA (as listed),"2025, 2026",https://careers.quest-global.com/global/en/job/P-124245/Engineer-AIML,talentd
+mnc,ServiceNow,Associate Software Engineer,Hyderabad,2026-11-02,fresher,₹18–25 LPA (as listed),"2025, 2026",https://jobs.smartrecruiters.com/ServiceNow/744000159166108,talentd
+mnc,Zensar,Network Voice Gateway Engineer,Pune,2026-11-02,fresher,₹8–12 LPA (as listed),"2025, 2026",https://fa-etvl-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/152000,talentd
+mnc,NIIT,ASSOCIATE SOFTWARE ENGINEER,"Gurgaon, Haryana, India",2026-10-30,fresher,,,https://www.linkedin.com/jobs/view/4475550229/,linkedin
+mnc,Clarivate,Futures Technology Engineer - Bengaluru,"Bengaluru East, Karnataka, India",2026-11-02,fresher,,,https://www.linkedin.com/jobs/view/4486158570/,linkedin
+mnc,HCLTech,Engineer (Support & Operations) in Vijayawada,Vijayawada,2026-11-02,fresher,₹3–5.5 LPA (as listed),"2025, 2026",https://careers.hcltech.com/job/Engineer-%28Support-&-Operations%29/188173-en_US/,talentd
+startup,Giant Eagle GCC,Associate Engineer .Net,"Bengaluru, Karnataka, India",2026-11-02,fresher,,,https://www.linkedin.com/jobs/view/4485479064/,linkedin
+startup,Razorpay,AI Builder,Bangalore,2026-11-02,fresher,,,https://unstop.com/jobs/ai-builder-razorpay-1787427,unstop
+startup,Tark Innovation Private Limited,AI/ML Engineer,"Hyderabad, Telangana, India",2026-10-31,fresher,,,https://www.linkedin.com/jobs/view/4485921205/,linkedin
+startup,Tark Innovation Private Limited,DevOps Engineer,"Hyderabad, Telangana, India",2026-10-31,fresher,,,https://www.linkedin.com/jobs/view/4485915417/,linkedin
+startup,iBytes Bits and Bots Private Limited,Quality Assurance Quality Control Engineer,"Velachery, Tamil Nadu, India",2026-11-02,fresher,,,https://www.linkedin.com/jobs/view/4485430864/,linkedin
+startup,GeoIQ,Frontend Engineer,"Bengaluru, Karnataka, India",2026-10-31,fresher,,,https://www.linkedin.com/jobs/view/4483940650/,linkedin
+startup,Ayurveda House Private Limited,AI Video Editor,Delhi,2026-11-02,fresher,₹3–3.6 LPA (as listed),,https://internshala.com/job/detail/ai-video-editor-job-in-delhi-at-ayurveda-house-private-limited1793620737,internshala
+startup,Bain & Company,AI Solutions Engineer,New Delhi,2026-11-02,fresher,,,https://unstop.com/jobs/ai-solutions-engineer-bain-company-1784182,unstop
+startup,YouTube,Salesforce Application Engineer,Bangalore,2026-10-29,fresher,,,https://unstop.com/jobs/salesforce-application-engineer-youtube-1782989,unstop
+startup,Cummins India pvt ltd,Electronic Systems Engineer,Pune,2026-10-28,fresher,,,https://unstop.com/jobs/electronic-systems-engineer-cummins-india-pvt-ltd-1773742,unstop
+startup,School Of Politics,QA Tester,Bangalore,2026-10-28,fresher,₹3–8 LPA (as listed),,https://internshala.com/job/detail/qa-tester-job-in-bangalore-at-school-of-politics1793165934,internshala
+startup,UnClaimedX Private Limited,Junior Flutter Developer,Bangalore,2026-10-28,fresher,₹2.5–3.5 LPA (as listed),,https://internshala.com/job/detail/fresher-junior-flutter-developer-job-in-bangalore-at-unclaimedx-private-limited1793181782,internshala
+startup,I Cube World,Full Stack Developer,Work from home,2026-10-27,fresher,₹2.4–3.5 LPA (as listed),,https://internshala.com/job/detail/fresher-remote-full-stack-developer-job-at-i-cube-world1793085317,internshala
+startup,Marketome Technology Private Limited,Software Developer,"Faridabad, Delhi, Gurgaon, Noida",2026-10-27,fresher,₹4.8–6 LPA (as listed),,https://internshala.com/job/detail/software-developer-job-in-multiple-locations-at-marketome-technology-private-limited1793104757,internshala
+startup,Simpli Intern,Full Stack Developer,Work from home,2026-10-27,fresher,₹2.1–4.6 LPA (as listed),,https://internshala.com/job/detail/fresher-remote-part-time-full-stack-developer-job-at-simpli-intern1793095624,internshala
