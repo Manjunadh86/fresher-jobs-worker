@@ -1,0 +1,15 @@
+services:
+  jobs-worker:
+    build: .
+    container_name: jobs-worker
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - jobs-data:/data
+    # The container runs its own daily scheduler (DIGEST_TIME in TZ).
+    # To drive it from host cron instead, change the command to a no-op and use:
+    #   docker compose run --rm jobs-worker run
+    command: ["serve"]
+
+volumes:
+  jobs-data:

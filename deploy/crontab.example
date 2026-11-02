@@ -1,0 +1,6 @@
+# Plain cron alternative to `serve`. 08:30 IST daily. Install with `crontab -e`.
+CRON_TZ=Asia/Kolkata
+30 8 * * *  cd /opt/jobs-worker/worker && set -a && . ./.env && set +a && /usr/bin/python3 -m jobs_worker run >> /var/log/jobs-worker.log 2>&1
+
+# Docker host driving the container instead of the internal scheduler:
+# 30 8 * * *  cd /opt/jobs-worker/worker && docker compose run --rm jobs-worker run >> /var/log/jobs-worker.log 2>&1

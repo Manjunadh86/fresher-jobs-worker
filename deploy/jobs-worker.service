@@ -1,0 +1,20 @@
+# systemd unit for a bare VPS (no Docker). Install:
+#   sudo cp worker/deploy/jobs-worker.service /etc/systemd/system/
+#   sudo systemctl daemon-reload && sudo systemctl enable --now jobs-worker
+[Unit]
+Description=Daily fresher jobs scraping worker
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=jobs
+WorkingDirectory=/opt/jobs-worker/worker
+EnvironmentFile=/opt/jobs-worker/worker/.env
+Environment=JOBS_DATA_DIR=/var/lib/jobs-worker
+ExecStart=/usr/bin/python3 -m jobs_worker serve
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,43 @@
+# Daily scrape on GitHub's runners (free). Commits data/ back so the Streamlit app and the
+# "never repost" ledger survive without any server. Streamlit Community Cloud redeploys on push.
+name: daily-fresher-jobs
+on:
+  schedule:
+    - cron: "0 3 * * *"       # 03:00 UTC = 08:30 IST
+  workflow_dispatch:
+
+concurrency:
+  group: daily-scrape
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run worker
+        env:
+          TZ: Asia/Kolkata
+          JOBS_DATA_DIR: ${{ github.workspace }}/data
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+        run: python -m jobs_worker run
+      - name: Commit data
+        run: |
+          git config user.name  "jobs-worker"
+          git config user.email "jobs-worker@users.noreply.github.com"
+          git add data
+          git commit -m "digest $(TZ=Asia/Kolkata date +%F)" || exit 0
+          git pull --rebase origin ${{ github.ref_name }} || true
+          git push
